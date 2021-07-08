@@ -1,0 +1,97 @@
+body {
+	font-family: arial, sans-serif;	
+	margin: 0;	
+	background-color: pink;	
+}
+nav {
+	background-color: black;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 10;
+}
+nav ul {
+	display: flex;
+}
+nav ul li {	
+	padding: 20px 15px;
+	list-style-type: none;
+}
+.nba {
+	width: 150px;
+	padding-top: 0px;
+}
+nav ul li a {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+nav ul li a:hover {
+	font-size: 17px;
+	text-decoration: underline;
+}
+#nba-img {	
+	max-width: 100%;  	
+	display: block;
+	margin: 0 auto;
+}
+#main {	
+	text-align: center;
+	padding: 50px 200px;
+}
+#teams {
+	text-align: center;	
+	padding: 50px;
+}
+#teams ul {
+	list-style-type: none;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+#teams ul li img {	
+	width: 200px;
+	height: 200px;	
+	margin: 25px;
+	border-radius: 5%;	
+}
+#teams ul li a:hover {
+	opacity: 85%;	
+}
+#players {
+	text-align: center;
+	padding: 40px;
+}
+#players ul {
+	list-style-type: none;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+#players ul li img {
+	width: 150px;
+	height: 150px;
+	margin: 20px;
+	border-radius: 100%;
+}
+#social-media {	
+	text-align:center;
+  	background-color: black;
+  	padding:5px 0;
+}
+#social-media a:hover{
+	text-decoration: underline;
+}
+#social-media ul {
+	display: flex;	
+	justify-content: center;	
+}	
+#social-media ul li {
+	list-style-type: none;
+	margin: 0 10px;	
+}
+#social-media ul li a {
+	text-decoration: none;
+	color: white;	
+}
