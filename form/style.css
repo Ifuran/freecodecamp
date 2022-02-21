@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap');
+* {
+	font-family: rubik;	
+	box-sizing: border-box;
+}
+body::before {
+	content: '';
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;	
+	height: 100%;	
+	background-image: linear-gradient(90deg, 
+		rgba(2,0,36,0.5) 0%, 
+		rgba(66,66,218,0.5) 35%, 
+		rgba(40,208,242,0.5) 100%), 
+	url(https://wallpapercave.com/wp/wp4923802.jpg);
+	background-size: cover;
+	z-index: -1;
+}
+body {	
+	color: white;	
+}
+h1, p {
+	text-align: center;
+
+}
+form {
+	max-width: 650px;
+	background: rgba(0, 0, 0, 0.7);
+	margin:  0 auto;
+	margin-top: 50px;
+	padding: 40px;
+	border-radius: 20px;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='number'],
+select, textarea, button {
+	display: block;
+	margin: 15px 0px;
+	height: 45px;
+	width: 100%;
+	border-radius: 20px;
+	border: none;
+	padding: 15px;
+	color: black;
+	font-family: inherit;
+}
+input[type='radio'],
+input[type='checkbox'] {
+	width: 25px;	
+	margin-top: 15px;	
+}
+#skill-label, #team-label, #comment-label {
+	display: block;
+	margin-top: 20px;
+}
+textarea {
+	height: 100px;
+	resize: none;
+}
+button {
+	color: white;
+	background-color: #1071a6;
+}

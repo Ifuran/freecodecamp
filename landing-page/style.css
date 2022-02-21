@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;600;700&display=swap');
+* {
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+body {
+	margin-left: -10px;
+	margin-right: 0px;
+	/*width: 100%;*/
+	height: 2000px;
+}
+nav {
+	background: rgb(242,235,235);
+	background: linear-gradient(90deg, 
+		rgba(242,235,235,1) 0%, 
+		rgba(112,112,176,1) 30%, 
+		rgba(2,19,20,1) 98%);
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	display: inline-flex;
+}
+#header-img {
+	width: 175px;
+	padding: 10px 10px;
+	margin-left: 45px;
+}
+ul li {
+	display: inline;
+	letter-spacing: 0.25	px;
+	
+}
+ul li a {
+	padding: 15px;
+	text-decoration: none;
+	color: black;
+}
+ul li a:hover {
+	font-size: 16px;
+	color: white;	
+}
+#form-search {
+	padding: 10px 40px;
+}
+#search {
+	width: 450px;
+	height: 35px;
+	border-radius: 10px;
+	border: none;
+}
+#button {
+	border: none;
+	background-color: lightgreen;
+	border-radius: 5px;
+	position: relative;
+	margin-left: -10%;
+}
+#account {
+	text-align: center;
+	padding-top: 150px;
+	padding-bottom: 400px;
+	background-image: linear-gradient(90deg, 
+    rgba(2,0,36,0.5) 45%, 
+    rgba(66,66,218,0.5) 85%, 
+    rgba(40,208,242,0.5) 100%), url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.0Diu0bKALGCgbDpgzQ_N_gHaEK%26pid%3DApi&f=1);
+	background-size: cover;	
+	color: #fff;
+	z-index: -1;
+}
+#account h1 {
+	font-weight: 700;
+	font-size: 50px;		
+}
+#account h3 {
+	font-weight: 300;
+}
+#email {
+	width: 350px;
+	height: 50px;
+}
+#submit {
+	width: 100px;
+	height: 50px;
+	margin-left: -5px;
+	background-color: red;
+	color: white;
+	border: none;
+	font-weight: 700;
+	letter-spacing: 2px;	
+}
+#about {
+	margin-top: -30px;
+	padding-top: 125px;
+	padding-bottom: 120px;
+	padding-left: 175px;
+	background-color: black;
+	color: #fff;
+}
+#about h1 {
+	font-size: 48px;
+	font-weight: 700;
+	letter-spacing: 1.5px;
+}
+#about h3 {
+	font-size: 20px;
+	font-weight: 300;
+}
+#category {
+	background: linear-gradient(90deg, 
+		rgba(0,0,0,1) 59%, 
+		rgba(3,27,55,1) 100%);
+	margin-top: -30px;
+	padding-top: 125px;
+	padding-bottom: 120px;
+	padding-right: 175px;
+	text-align: right;
+	color: #fff;
+}
+#category h1 {
+	font-size: 48px;
+	font-weight: 700;
+	letter-spacing: 1.5px;
+}
+.sepatu img {
+	width: 150px;	
+	border-radius: 25px;
+	margin-left: 25px;
+}
+#review {
+	margin-top: -30px;
+	padding-top: 125px;
+	padding-bottom: 120px;
+	text-align: center;
+	background-color: black;
+	color: #fff;
+}
+#review h1 {
+	font-size: 48px;
+	font-weight: 700;
+	letter-spacing: 1.5px;
+}
+@media (max-width: 670px) {
+	* {
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+#header-img {
+	width: 175px;
+	padding: 10px 10px;	
+}
