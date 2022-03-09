@@ -37,7 +37,7 @@ p {
 
 #welcome-section {
 	padding-top: 75px;
-	height: 660px;
+	height: 650px;
 	text-align: center;	
 }
 
@@ -129,7 +129,11 @@ footer a {
 		padding: 10px 15px;
 		margin: 0;	
 	}
-
+	
+	#welcome-section {
+		height: 680px;
+	}
+	
 	.projects img {
 		width: 350px;
 		padding: 5px;
