@@ -5,7 +5,7 @@
 	font-family: sans-serif;
 }
 
-nav {
+#navbar {
 	width: 100%;	
 	position: fixed;
 	margin-top: 25px;			
@@ -37,7 +37,7 @@ p {
 
 #welcome-section {
 	padding-top: 75px;
-	height: 650px;
+	height: 660px;
 	text-align: center;	
 }
 
@@ -120,7 +120,7 @@ footer a {
 
 /*----------Responsive----------*/
 @media only screen and (max-width: 576px) {	
-	nav {
+	#navbar {
 		text-align: center;
 
 	}
@@ -130,13 +130,17 @@ footer a {
 		margin: 0;	
 	}
 
+	#welcome-section {
+		height: 660px;
+	}
+
 	.projects img {
 		width: 350px;
 		padding: 5px;
 	}
 
 	footer {
-		padding-bottom: 155px;
+		padding-bottom: 125px;
 	}
 
 }
